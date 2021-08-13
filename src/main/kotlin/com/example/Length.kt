@@ -2,7 +2,6 @@ package com.example
 
 import java.text.DecimalFormat
 
-
 class Length(private val value: Double, private val lengthUnit: LengthUnit) {
 
     fun add(length: Length) =
